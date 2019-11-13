@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     <title>Weather Dashboard</title>
@@ -23,10 +24,10 @@
       <!-- Sidebar -->
       <div class="bg-light border-right" id="sidebar-wrapper">
         <div class="sidebar-heading">Search for a City:</div>
-        <div class="searchBar">
-          <input class="form-control" type="text" name="cityInput" />
-          <button type="submit"></button>
-        </div>
+        <form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
         <div class="list-group list-group-flush">
           <a href="#" class="list-group-item list-group-item-action bg-light"
             >Dashboard</a
