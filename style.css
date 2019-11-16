@@ -45,6 +45,8 @@ body {
 
 .jumbotron {
   text-align: center;
+  background-color: slategray;
+  color: white;
 }
 
 * {
