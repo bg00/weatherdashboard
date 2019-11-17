@@ -51,7 +51,7 @@ signUpButton.addEventListener("click", function(event) {
       console.log(response);
 
       // Transfer content to HTML
-      $(".city").html("<h1>" + response.name + " Weather Details</h1>");
+      $(".city").html("<h1>" + response.city.name + " Weather Details</h1>");
       $(".wind").text("Wind Speed: " + response.list[0].wind.speed);
       $(".humidity").text("Humidity: " + response.list[0].main.humidity);
       $(".temp").text("Temperature (F) " + response.list[0].main.temp);
